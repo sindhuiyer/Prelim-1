@@ -1,6 +1,6 @@
 ## Prelim 1 Solution - Sindhu Iyer
 
-#To run the code include("file.jl") in Julia. Reproducing certain plots my require adjusting the specified parameters.
+*To run the code include("file.jl") in Julia. Reproducing certain plots my require adjusting the specified parameters.*
 
 ## Question 1
 
