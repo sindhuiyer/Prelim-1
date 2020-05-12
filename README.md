@@ -26,7 +26,7 @@ You could assume that the parameters are the same as for A2 promoter from the Mc
 
 **(d)** The time varying values with the specified initial conditions were plotted by running ``Q2D.jl`` file for S = 0.02, 10, and 10<sup>5</sup>. The nondimensional differential equations and constants were found in the paper. The produced plots are displayed in ``2plots.doc``.
 
-**(e)**
+**(e)** Run ``Q2EHopf.jl`` and ``Q2Esaddle.jl`` to the produce plots in the file
 
 
 
