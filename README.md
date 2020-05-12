@@ -2,13 +2,13 @@
 
 ## Question 1
 
-(a) To solve for B, use
+(a) To solve for for a specific volume basis, solve for B = <mc>VNc, where V = 1 mL, Nc = 1 x 10<sup>8</sup> cells/mL, and mc = 4.33 x 10<sup>-15</sup> gDW/cell for a doubling time of 40 minutes found on [Bionumbers][Td_1]
 
 
 
+[Td_1]:https://bionumbers.hms.harvard.edu/bionumber.aspx?id=103892&ver=10&trm=mass+ecoli+cell+doubling+time+40+min&org=
 
-
-(d) The model does have the correct fit we assume that the gain function K is a constant, 3.56 x 10<sup>11</sup> nmol/gDW.
+(d) The model does have the correct fit we assume that the gain function K is a constant, 3.56 x 10<sup>11</sup> nmol/gDW. This 
 
 ### How to construct the stoichoimetric matric S for the urea cycle
 The stoichiometric matrix was constructed using data from KEGG (arginine biosynthesis in humans). The matrix is contained in the ``data.CSV`` file.
