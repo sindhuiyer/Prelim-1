@@ -22,19 +22,13 @@ You could assume that the parameters are the same as for A2 promoter from the Mc
 
 **(a) & (b)** Refer to ``2written.pdf`` for the derivations and functions
 
-**(c)** The nondimesional system of equations developed in (b) was solved for X in terms of X and S using Mathematica file ``2 (c).nb``. The stable steady-state values of X were plotted running ``Q2C.jl``, and the plot is in ``2plots.doc`` The solid black lines on the bifurcation diagram are qualitatively reproducible as the plot shows.
+**(c)** The nondimesional system of equations developed in (b) was solved for X in terms of X and S using Mathematica file ``2 (c).nb``. The stable steady-state values of X were plotted running ``Q2C.jl``, and the plot is in ``Q2.pdf`` The solid black lines on the bifurcation diagram are qualitatively reproducible as the plot shows.
 
-**(d)** The time varying values with the specified initial conditions were plotted by running ``Q2D.jl`` file for S = 0.02, 10, and 10<sup>5</sup>. The nondimensional differential equations and constants were found in the paper. The produced plots are displayed in ``2plots.doc``.
+**(d)** The time varying values with the specified initial conditions were plotted by running ``Q2D.jl`` file for S = 0.02, 10, and 10<sup>5</sup>. The nondimensional differential equations and constants were found in the paper. The produced plots are displayed in ``Q2.pdf``.
 
-**(e)** Run ``Q2EHopf.jl`` and ``Q2Esaddle.jl`` to the produce plots in the file
+**(e)** Run ``Q2EHopf.jl`` and ``Q2Esaddle.jl`` to the produce plots in the file ```Q2.pdf``. The plots are also analyzed in the file.
 
-
-
-  ```jl
-    julia > LxUx=Matrix(CSV.read("species array lower and upper.CSV"))
-    julia > LvUv=Matrix(CSV.read("flux array lower and upper.CSV"))
-    julia > c=[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,-1.0,0.0,0.0,0.0,0.0,0.0]
-  ```
+**(f)** The first S value in function ``Q2Esaddle.jl`` was adjusted to 105. The results were plotted, captured, and analyzedin ```Q2.pdf``.
 
 
 
