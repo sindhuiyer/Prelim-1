@@ -17,6 +17,16 @@ You could assume that the parameters are the same as for A2 promoter from the Mc
 
 **(d)** The model does have the correct fit we assume that the gain function K is a constant, 3.56 x 10<sup>11</sup> nmol/gDW. The plot in ``1d.xlsx`` shows that.
 
+## Question 2
+
+**(a) & (b)** Refer to ``2written`` for the derivations and functions
+
+**(c)** The nondimesional system of equations developed in (b) was solved for X in terms of X and S using Mathematica file ``2 (c)``. The stable steady-state values of X were plotted using Excel and circular referencing. The solid black lines on the bifurcation diagram are qualitatively reproducible as, the plot in ``2c.xlsx`` shows.
+
+**(d)** The time varying values with the specified initial conditions were plotted using ``2D.jl`` file for S = 0.02, 10, and 10<sup>5</sup>. The nondimensional differential equations and constants were found in the paper. The produced plots are displayed in ``2plots.doc``.
+
+**(e)**
+
 ### How to construct the stoichoimetric matric S for the urea cycle
 The stoichiometric matrix was constructed using data from KEGG (arginine biosynthesis in humans). The matrix is contained in the ``data.CSV`` file.
 
