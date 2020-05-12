@@ -22,9 +22,9 @@ You could assume that the parameters are the same as for A2 promoter from the Mc
 
 **(a) & (b)** Refer to ``2written`` for the derivations and functions
 
-**(c)** The nondimesional system of equations developed in (b) was solved for X in terms of X and S using Mathematica file ``2 (c).nb``. The stable steady-state values of X were plotted using ``Q2C.jl``, and the plot is in ``2plots.doc`` The solid black lines on the bifurcation diagram are qualitatively reproducible as the plot shows.
+**(c)** The nondimesional system of equations developed in (b) was solved for X in terms of X and S using Mathematica file ``2 (c).nb``. The stable steady-state values of X were plotted running ``Q2C.jl``, and the plot is in ``2plots.doc`` The solid black lines on the bifurcation diagram are qualitatively reproducible as the plot shows.
 
-**(d)** The time varying values with the specified initial conditions were plotted using ``Q2D.jl`` file for S = 0.02, 10, and 10<sup>5</sup>. The nondimensional differential equations and constants were found in the paper. The produced plots are displayed in ``2plots.doc``.
+**(d)** The time varying values with the specified initial conditions were plotted by running ``Q2D.jl`` file for S = 0.02, 10, and 10<sup>5</sup>. The nondimensional differential equations and constants were found in the paper. The produced plots are displayed in ``2plots.doc``.
 
 **(e)**
 
